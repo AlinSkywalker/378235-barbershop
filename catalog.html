@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
@@ -34,7 +35,7 @@
         <h2 class="hidden">Фильтр</h2>
         <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
             <fieldset>
-              <legend>Производители:</legend>
+              <legend class="filter-block-name">Производители:</legend>
               <ul>
                 <li class="filter-option">
                   <input type="checkbox" checked name="baxter-of-california" class="hidden filter-checkbox" id="baxter-of-california">
@@ -63,7 +64,7 @@
               </ul>
             </fieldset>
             <fieldset>
-              <legend>Группы товаров:</legend>
+              <legend class="filter-block-name">Группы товаров:</legend>
               <ul>
                 <li class="filter-option">
                   <input type="radio" name="product-group" class="hidden filter-radio" id="shaving" value="shaving">
